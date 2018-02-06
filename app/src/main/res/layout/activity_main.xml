@@ -32,7 +32,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:paddingBottom="10dp"
-        android:text="&quot; Your best hangout in town. &quot;"
+        android:text="&quot; Your best cafe and hangout in town. &quot;"
         android:textStyle="italic"
         android:textColor="@android:color/white"
         android:textSize="12sp" />
