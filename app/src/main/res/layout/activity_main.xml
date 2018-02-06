@@ -163,6 +163,6 @@
         android:layout_height="wrap_content"
         android:layout_weight="5" />
 
+    <!-- Credits: images from pexels.com and icons from flaticons.com -->
+    
 </LinearLayout>
-
-<!-- Credits: images from pexels.com and icons from flaticons.com -->
