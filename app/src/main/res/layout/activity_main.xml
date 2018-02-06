@@ -7,6 +7,7 @@
     android:orientation="vertical"
     tools:context="com.example.dondave.barakocafe.MainActivity">
 
+    <!-- Top store image -->
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -15,6 +16,7 @@
         android:scaleType="centerCrop"
         android:src="@drawable/barakocafe" />
 
+    <!-- Business Name -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -24,6 +26,7 @@
         android:textColor="@android:color/white"
         android:textSize="20sp" />
 
+    <!-- Slogan -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -34,6 +37,7 @@
         android:textColor="@android:color/white"
         android:textSize="12sp" />
 
+    <!-- Horizontal layout 1 business address -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -57,6 +61,7 @@
 
     </LinearLayout>
 
+    <!-- Horizontal layout 2 website -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -80,6 +85,31 @@
 
     </LinearLayout>
 
+    <!-- Horizontal layout 3 email address -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_weight="1"
+            android:src="@drawable/mail" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:paddingLeft="5dp"
+            android:text="inquiry@barakocafe.sg"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <!-- Horizontal layout 4 business telephone -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -103,6 +133,7 @@
 
     </LinearLayout>
 
+    <!-- Horizontal layout 5 business opening hours -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
